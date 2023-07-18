@@ -1,0 +1,19 @@
+/* Mobile Responsive */
+@media screen and (max-width: 576px) {
+    .navbar, .menu{
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 30px
+    }
+    .menu{
+        margin-bottom: 50px;
+    }
+    .menu-btns{
+        margin: 20px;
+     }
+     .menu li{
+        list-style: none;
+        margin: 10px 0;
+     }
+}

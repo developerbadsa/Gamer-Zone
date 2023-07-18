@@ -6,7 +6,8 @@
     padding: 0px;
 }
 :root{
-    --primary-color: #FF42A5; 
+    --primary-color: #FF42A5;
+    --secondary-color: #4EC5F7;
 }
 img{
     width: 100%;
@@ -46,7 +47,7 @@ body{
     text-align: center;
     border: none;
     border-radius: 50px;
-    background: var(--primary-color);
+    background: var(--secondary-color);
 }
 
 /* header css */
@@ -105,5 +106,47 @@ header{
     color: #CD201F;
 }
 .fa-tiktok{
-    color: 
 }
+/* banner css */
+/* .banner{
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-text{ 
+}
+.banner-text h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-text h1{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    line-height: 120px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-text ul li{
+    list-style: none;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 38px;
+}
+.banner-text ul li i{
+   color: var(--primary-color);
+   margin-right: 10px;
+}
+.banner-btn{
+    margin-top: 30px;
+    margin-right:22px;
+} */
