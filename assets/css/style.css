@@ -21,6 +21,9 @@ body{
 .container-fluid{
     width: 100%;
 }
+.btn{
+    border: none;
+}
 .btn-primary{
     color: #FFF;
     text-transform: uppercase;
@@ -29,6 +32,7 @@ body{
     display: inline-flex;
     padding: 20px 40px;
     text-align: center;
+    border: none;
     border-radius: 50px;
     background: var(--primary-color);
 }
@@ -40,13 +44,66 @@ body{
     display: inline-flex;
     padding: 20px 40px;
     text-align: center;
+    border: none;
     border-radius: 50px;
     background: var(--primary-color);
 }
 
 /* header css */
+header{
+    padding: 35px 0;
+}
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.logo-text{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0 15px;
+}
+
+.logo-text span{
+    color: var(--primary-color);
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu li{
+   list-style: none;
+   margin: 0 10px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.menu-btns{
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 24px;
+    border-radius: 8px;
+    background: #0b02231a;
+}
+.menu-btns i{
+    font-size: 24px;
+    margin: 0 8px;
+    background: transparent;
+}
+.fa-youtube{
+    color: #CD201F;
+}
+.fa-tiktok{
+    color: 
 }
