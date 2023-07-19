@@ -37,7 +37,7 @@
      }
      .banner-text h1{
         text-align: center;
-        font-size: 80px;
+        font-size: 70px;
         font-weight: 800;
         line-height: 120px;
         text-transform: uppercase;
@@ -92,4 +92,23 @@
         padding: 50px 100px;
 
     }
+    /* for play */
+    .play-inner{
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    .play-text {
+        width: 70%;
+        margin-bottom: 70px;
+    }
+    .play-img{
+        width: 350px;
+        margin: 0 auto;
+    }
+    .play-img-2{
+        width: 30%;
+        top: -148px;
+    }
+
 }

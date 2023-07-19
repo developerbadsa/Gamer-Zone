@@ -289,7 +289,43 @@ header{
     
 }
 
-
+/* Play section */
+.play-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.play-text{
+    width: 50%;
+    margin-bottom: 116px;
+}
+.play-text h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 20px 0;
+}
+.play-text p{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0;
+}
+.play-img-box{
+    width: 600px;
+}
+.play-img{
+    width: 600px;
+}
+.play-img-2 {
+    position: relative;
+    top: -226px;
+    left: -25%;
+    width: 300px;
+}
 
 
 /* catagory css */
