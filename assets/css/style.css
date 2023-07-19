@@ -296,8 +296,8 @@ header{
     justify-content: space-between;
 }
 .play-text{
-    width: 50%;
-    margin-bottom: 116px;
+    width: 80%;
+    margin-bottom: 130px;
 }
 .play-text h2{
     text-align: center;
@@ -315,16 +315,18 @@ header{
     margin: 20px 0;
 }
 .play-img-box{
-    width: 600px;
+    width: 80%;
+    position: relative;
 }
 .play-img{
-    width: 600px;
+    width: 500px;
 }
 .play-img-2 {
-    position: relative;
-    top: -226px;
-    left: -25%;
-    width: 300px;
+    position: absolute;
+    left: -9%;
+    top: 46%;
+    margin-top: 80px;
+    width: 250px;
 }
 
 
@@ -399,11 +401,6 @@ footer{
 }
 .footer-logo-text span{
     color: var(--primary-color);
-}
-.footer-texts ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .footer-texts ul li{
     list-style: none;
