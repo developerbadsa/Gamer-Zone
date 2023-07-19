@@ -59,5 +59,29 @@
 
 
 
+    /* for footer */
+    .quick-links{
+        padding: 0 20px;
+        margin: 30px 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+    }
+    .social-icons{
+        margin: 90px 0;
+        padding: 0 0px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+    }
+    .footer-text{
+        padding: 0px 0px;
+        margin: 30px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+    .footer-cp{
+        padding: 50px 100px;
 
 }
