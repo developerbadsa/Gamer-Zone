@@ -152,6 +152,37 @@
         text-align: center;
         margin-top: 20px;
     }
+
+    .banner-text {
+        padding: 0px 50px;
+    }
+    .banner-text h2{
+        color: #0B0223;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .banner-text h1{
+        text-align: center;
+        font-size: 32px;
+    }
+    .banner-text ul li{
+        font-size: 14px;
+    }
+
+    .banner-btn{
+        margin-top: 5px;
+        margin-right:5px;
+    }
+    .btn-primary{
+        font-size: 14px;
+        padding: 15px 25px;
+    }
+    .btn-secondary{
+        font-size: 14px;
+        padding: 15px 25px;
+    }
+
     .logo{
         margin: 30px 0
     }
@@ -233,14 +264,14 @@
         padding: 0 0px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 50px;
+        row-gap: 50px;
     }
     .footer-text{
         padding: 0px 0px;
         margin: 30px 0;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
+        row-gap: 30px;
     }
     .footer-cp{
         padding: 50px 100px;
