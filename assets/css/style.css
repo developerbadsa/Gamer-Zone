@@ -201,6 +201,56 @@ header{
     font-weight: 500;
     line-height: 45px;
 }
+
+
+
+
+
+
+
+
+/* catagory css */
+.btn-group{
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 45px;
+    text-align: center;
+}
+.btn-group li{
+    list-style: none;
+    text-align: center;
+}
+.btn-group li button{
+    border: 2px solid #00000000;
+    background: none;
+    padding: 8px 10px;
+}
+.btn-group li button:hover{
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+}
+.btn-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-link:hover span{
+    color: var(--primary-color);
+}
+.btn-link img{
+    width: 60px;
+}
+.btn-link span{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 12px;
+    padding: 8px 15px;
+}
+
+
 /* Footer css */
 footer{
     background: #0B0223;
@@ -273,7 +323,7 @@ footer{
     font-weight: 500;
 }
 .footer-cp{
-    color: rgba(255, 255, 255, 0.60);
+    color: #ffffff99;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
