@@ -171,10 +171,10 @@ header{
     width: 200%;
 }
 .we-gamer-text{
-    text-align: right;
+    text-align: center;
 }
 .we-gamer-text h2{
-    text-align: right;
+    text-align: center;
     font-size: 48px;
     font-weight: 700;
 }
@@ -211,9 +211,11 @@ header{
 
 /* catagory css */
 .btn-group{
+    width: 100%;
     padding: 100px 0;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     row-gap: 45px;
     text-align: center;
 }

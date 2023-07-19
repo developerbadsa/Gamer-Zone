@@ -59,6 +59,10 @@
 
 
     /* Catagory */
+    .btn-group{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     /* for footer */
     .quick-links{
         padding: 0 20px;
