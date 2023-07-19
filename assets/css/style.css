@@ -202,6 +202,10 @@ header{
     line-height: 45px;
 }
 /* Online game */
+.online-game{
+    margin: 90px 0;
+}
+
 .section-title{
     color: #0B0223;
     text-align: center;
@@ -229,9 +233,14 @@ header{
 }
 .card :hover .overlay-text, .overlay{
     display: block;
+
+    transition: 1s;
 }
 .card :hover .overlay{
+    border: 5px solid var(--primary-color);
     display: block;
+    background-color: #000000b5;
+    transition: .1s;
 }
 
 .card img{
@@ -242,7 +251,6 @@ header{
 .card h3{
     color: #534C64;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 30px;
     margin-top: 20px;
@@ -254,18 +262,22 @@ header{
     position: absolute;
     top: 68%;
     left: 84%;
-    color: #FFF;
+    color: var(--primary-color);
+    font-size: 20px;
     margin-top: -100px;
     margin-left: -150px;
     text-align: center;
     z-index: 11;
     display: none;
     text-decoration: none;
-    transition: 1s;
+  }
+  .overlay-text i{
+    font-size: 35px;
+    color: #FFF;
+    margin-bottom: 10px;
   }
 
 .overlay{
-    display: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -274,7 +286,7 @@ header{
     width: 100%;
     z-index: 5;
     border-radius: 20px;
-    background-color: #000000b5;
+    
 }
 
 

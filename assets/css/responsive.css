@@ -4,7 +4,7 @@
         padding: 0 20px;
     }
     /* for navbar */
-    .navbar, .menu,  .we-gamer{
+    .navbar, .menu,  .we-gamer, .cards{
         flex-direction: column;
     }
     .banner{
@@ -55,7 +55,10 @@
     .we-gamer-text{
         text-align: center;
     }
-
+    /* for onliine game section */
+    .card{
+        margin-bottom: 35px;
+    }
 
 
     /* Catagory */
