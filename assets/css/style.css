@@ -379,6 +379,7 @@ footer{
 }
 .footer-inner{
     text-align: center;
+    width: 100%;
 }
 .footer-logo{
     display: flex;
@@ -399,11 +400,11 @@ footer{
 .footer-logo-text span{
     color: var(--primary-color);
 }
-/* .footer-texts ul{
+.footer-texts ul{
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 .footer-texts ul li{
     list-style: none;
 }
