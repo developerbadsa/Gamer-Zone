@@ -1,3 +1,139 @@
+
+
+
+/* Tablet Responsive */
+@media only screen and (min-width:578px) and (max-width:992px){
+
+    /* for header */
+    .navbar{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-bottom:1px solid rgba(0, 0, 0, 0.309) ;
+    }
+    .logo{
+        margin: 30px 0;
+    }
+    .nav-link{
+        font-size: 14px;
+    }
+
+    .menu-btns{
+        font-size: 12px;
+    }
+
+
+
+    /* for banner */
+    .banner-text {
+        padding: 0px 75px;
+    }
+    .banner-text {
+        padding: 0px 75px;
+    }
+    .banner-text h2{
+        color: #0B0223;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .banner-text h1{
+        text-align: center;
+        font-size: 65px;
+    }
+    .banner-text ul li{
+        font-size: 14px;
+    }
+
+    .banner-btn{
+        margin-top: 5px;
+        margin-right:5px;
+    }
+    .btn-primary{
+        font-size: 14px;
+        padding: 15px 25px;
+    }
+    .btn-secondary{
+        font-size: 14px;
+        padding: 15px 25px;
+    }
+    /* we are gamer */
+    .we-gamer{
+        flex-direction: column-reverse;
+    }
+    .we-gamer-img{
+        width: 100%;
+    }
+
+
+/* online game */
+    
+.online-game{
+    padding: 0 50px;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+/* play section */
+.play-inner{
+    flex-direction: column;
+}
+
+.play-text{
+    width: 100%;
+}
+.play-img-box{
+    width: 80%;
+    position: relative;
+    margin-left: 120px;
+}
+/* footer */
+.quick-links{
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 40px;
+    margin-bottom: 50px;
+}
+
+.social-icons{
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0px 050px;
+    padding: 0 100px;
+}
+.footer-text{
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
 /* Mobile Responsive */
 @media screen and (max-width: 576px) {
     .container{
