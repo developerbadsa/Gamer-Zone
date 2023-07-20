@@ -65,7 +65,48 @@
     .we-gamer-img{
         width: 100%;
     }
+
+    
+    /* for careers */
+    .career-inner{
+        padding: 0 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .career-text{
+        padding: 50px 0;
+        text-align: center;
+        width: 90%;
+        justify-content: center;
+    }
+    .career p{
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 20px 0;
+    }
+    .career-lists ul li{
+        color: #FFF;
+        font-size: 12px;
+    }
+    .career-text button{
+        color: var(--primary-color);
+        font-size: 12px;
+        background: #fff;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        margin: 20px 0;
+    }
+    .career-img{
+        width: 60%;
+    }
+
+
     /* catagory */
+    .btn-group{
+        margin: 0px 0;
+    }
     .btn-group li button{
         border: 2px solid #00000000;
         background: none;
@@ -130,26 +171,11 @@
     row-gap: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
 
-/* Mobile Responsive */
+    /* =============Mobile Responsive ==============*/
 @media screen and (max-width: 576px) {
     .container{
         padding: 0px 10px;
@@ -238,6 +264,36 @@
         margin-bottom: 35px;
     }
 
+    /* for careers */
+    .career-inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .career-text{
+        padding: 50px 0;
+        text-align: left;
+        width: 90%;
+        justify-content: left;
+    }
+    .career p{
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 20px 0;
+    }
+    .career-lists ul li{
+        color: #FFF;
+        font-size: 12px;
+    }
+    .career-text button{
+        color: var(--primary-color);
+        font-size: 12px;
+        background: #fff;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        margin: 40px 0;
+    }
 
     /* Catagory */
     .btn-group{
@@ -251,12 +307,12 @@
         padding: 8px 10px;
     }
     .btn-link img{
-        width: 30px;
+        width: 25px;
         margin: 0 0;
         padding: 0;
     }
     .btn-link span{
-        font-size: 12px;
+        font-size: 10px;
         margin-left: 0px;
         padding: 5px 3px;
     }

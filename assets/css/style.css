@@ -367,7 +367,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.career-list2{
+.career-list1{
     text-align: left;
 }
 .career-list2{
@@ -389,7 +389,7 @@ header{
     margin: 40px 0;
 }
 .career-img{
-    
+    text-align: right;
 }
 
 
